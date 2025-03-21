@@ -1,0 +1,10 @@
+# meta-layers
+/poky
+/meta-*
+!/meta-java-test
+
+# setup-layers
+.oe-layers.json
+setup-build
+
+/build

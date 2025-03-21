@@ -1,0 +1,58 @@
+{
+    "sources": {
+        "yp-conf-java-build": {
+            "contains_this_file": true,
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://github.com/nedap/yp-conf-java-build.git"
+                    }
+                },
+                "rev": "origin/master"
+            },
+            "path": "."
+        },
+        "meta-java": {
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "",
+                "remotes": {
+                    "mirror": {
+                        "uri": "https://github.com/nedap/meta-java.git"
+                    }
+                },
+                "rev": "mirror/master"
+            },
+            "path": "meta-java"
+        },
+        "meta-openembedded": {
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "",
+                "remotes": {
+                    "mirror": {
+                        "uri": "https://github.com/nedap/meta-openembedded.git"
+                    }
+                },
+                "rev": "mirror/master"
+            },
+            "path": "meta-openembedded"
+        },
+        "poky": {
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "",
+                "remotes": {
+                    "mirror": {
+                        "uri": "https://github.com/nedap/poky.git"
+                    }
+                },
+                "rev": "mirror/master"
+            },
+            "path": "poky"
+        }
+    },
+    "version": "1.0"
+}
