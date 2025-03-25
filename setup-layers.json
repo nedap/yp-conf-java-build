@@ -23,7 +23,7 @@
                         "uri": "https://github.com/nedap/meta-java.git"
                     }
                 },
-                "rev": "mirror/master"
+                "rev": "mirror/master-next"
             },
             "path": "meta-java"
         },
