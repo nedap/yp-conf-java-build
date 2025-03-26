@@ -22,4 +22,10 @@ BB_DISKMON_DIRS ??= "\
     HALT,${SSTATE_DIR},100M,1K \
     HALT,/tmp,10M,1K"
 
+#
+# Yocto Project SState Mirror
+#
+BB_HASHSERVE_UPSTREAM = 'wss://hashserv.yoctoproject.org/ws'
+SSTATE_MIRRORS ?= "file://.* http://cdn.jsdelivr.net/yocto/sstate/all/PATH;downloadfilename=PATH"
+
 CONF_VERSION = "2"
